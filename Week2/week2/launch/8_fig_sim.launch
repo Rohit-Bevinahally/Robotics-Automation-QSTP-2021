@@ -1,0 +1,5 @@
+<launch>
+	<node name= "radius_talk" pkg="week2" type="radius_talk.py" />
+	<node name= "ang_vel_server" pkg="week2" type="ang_vel_server.py" />
+	<node name= "ang_vel_client" pkg="week2" type="ang_vel_client.py" />
+</launch>
